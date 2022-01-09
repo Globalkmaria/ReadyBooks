@@ -11,7 +11,7 @@
 
 ## Project duration
 
-2021/Dec/13 - 2021/Dex/23
+2021/Dec/13 - 2021/Dec/23 (2 weeks)
  
 ## Members
 

@@ -2,17 +2,18 @@
 
 [ReadyBooks Link](http://readyreadybooks.s3-website.ap-northeast-2.amazonaws.com/)
 
-## 프로젝트
+- You can purchase an e-book and read an e-book in ReadyBooks.
+- (* This is a toy project, not a real service)
 
-함께 책 읽을 준비 되셨나요?
-
-## 데모영상 (이미지 클릭)
+## Demo Video (Click the image to see the whole video)
 
 [![ReadyBooks](<https://media.vlpt.us/images/tjdgus0528/post/f79132e6-183d-41f5-9078-ebff9a5068cb/ezgif.com-gif-maker%20(1).gif>)](https://youtu.be/83JF9irjIb4)
 
-## 개발 인원 및 기간
+## Project duration
 
-- 개발기간: 2021/12/13~2021/12/23
+2021/Dec/13 - 2021/Dex/23
+ 
+## Members
 
 <img src='https://media.vlpt.us/images/tjdgus0528/post/0c7db5d1-cc6a-4276-957b-ef74c3e2584b/ready.jpg' width="754" alt='단체사진'/>
 
@@ -26,31 +27,39 @@
   - 박진성 [github link](https://github.com/jincastle)
   - 성주호 [github link](https://github.com/Joshua-sung)
     <br/><br/>
-- [프론트엔드 github link](https://github.com/wecode-bootcamp-korea/27-2nd-ReadyBooks-frontend)
-- [백엔드 github link](https://github.com/wecode-bootcamp-korea/27-2nd-ReadyBooks-backend)
+- [Frontend github link](https://github.com/wecode-bootcamp-korea/27-2nd-ReadyBooks-frontend)
+- [Backend github link](https://github.com/wecode-bootcamp-korea/27-2nd-ReadyBooks-backend)
 
-### 적용 기술
-
-- Front-End: React.js, Style-components, React Router
+## Stacks
+- Front-End: React.js, Style-components, React Router, AWS
 - Back-End: Python, Django, Docker, MySQL, AWS
 
-### 소통 툴
-
+## Communication tools
 - Git, Github, Slack, Trello, Notion
 
-### 구현기능
-#### - 메인 페이지
-#### - 소셜 로그인
-#### - 상세 페이지
-#### - 장바구니
+## What we made
+- Product List page (Main page)
+- Social Login (Kakao Login)
+- Product Detail page
+- Cart page
 
-### 맡은 부분
-#### 소셜 로그인
+### My part
+#### Social Login (Kakao Login)
+- Add Social Login
+- Get Social Login Token and send it to the Backend
+- Get a User profile and nickname to use on our website.
 
 - 카카오 로그인
 - 카카오 프로필, 닉네임을 가져와 사이트에서 사용
 
 #### 상세페이지
+- Add a comment.
+- Make the user available to delete the comments that the user added.
+- Update comments when a comment is added or deleted or if the page is refreshed.
+- Show pdf using the react-pdf library. 
+- Limit the pages the user can see when the user didn't purchase the book.
+- Add the book to the cart list.
+
 - 댓글 추가, 삭제 기능
 - pdf 미리보기, 보기 (라이브러리 : react-pdf)
 - 바로 구매하기

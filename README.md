@@ -45,6 +45,7 @@
 
 ### My part
 #### Social Login (Kakao Login)
+
 - Add Social Login
 - Get Social Login Token and send it to the Backend
 - Get a User profile and nickname to use on our website.
@@ -52,18 +53,30 @@
 - 카카오 로그인
 - 카카오 프로필, 닉네임을 가져와 사이트에서 사용
 
+<img src='https://github.com/Globalkmaria/ReadyBooks/blob/main/public/images/socialLogin.png?raw=true' width="754" alt='Social Login'/>
+
 #### Item information page
 - Include comment box.
 - Make the user available to delete the comments that the user added.
 - Update comments when a comment is added or deleted or if the page is refreshed.
-- Show pdf using the react-pdf library. 
-- Limit the pages the user can see when the user didn't purchase the book.
-- Add the book to the cart list.
 
 - 댓글 추가, 삭제 기능
+
+![Add comment](https://github.com/Globalkmaria/ReadyBooks/blob/main/public/images/comment.gif?raw=true)
+
+- Show pdf using the react-pdf library. 
+- Limit the pages the user can see when the user didn't purchase the book.
+
 - pdf 미리보기, 보기 (라이브러리 : react-pdf)
 - 바로 구매하기
+
+![Purchase and show PDF](https://github.com/Globalkmaria/ReadyBooks/blob/main/public/images/purchase.gif?raw=true)
+
+- Add the book to the cart list.
 - 장바구니 추가
+<br/>
+
+![Add to cart](https://github.com/Globalkmaria/ReadyBooks/blob/main/public/images/addToCart.gif?raw=true)
 
 ### ERD
 

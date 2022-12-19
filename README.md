@@ -1,7 +1,5 @@
 # ReadyBooks
 
-[ReadyBooks Link](http://readyreadybooks.s3-website.ap-northeast-2.amazonaws.com/)
-
 - You can purchase an e-book and read an e-book in ReadyBooks.
 - (* This is a toy project, not a real service)
 

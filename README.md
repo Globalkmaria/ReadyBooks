@@ -1,5 +1,5 @@
 # ReadyBooks
-
+- Webpage was deployed with AWS but currently the webpage is down.
 - You can purchase an e-book and read an e-book in ReadyBooks.
 - (* This is a toy project, not a real service)
 
